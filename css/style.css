@@ -1,6 +1,15 @@
 *{
     font-family: 'Inter', sans-serif;
 }
+.logo{
+    height: 115px;
+    width: 115px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.nav-link{
+    font-weight: bold !important;
+}
 .login{
     box-sizing: border-box;
     position: static;
