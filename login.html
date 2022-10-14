@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://rsms.me/">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <link href="./css/style.css" rel="stylesheet" >
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="https://media-exp1.licdn.com/dms/image/C4E0BAQH8BWYpK3eVPg/company-logo_200_200/0/1565034397472?e=2159024400&v=beta&t=_627mJ5hqrZvhCN-XAEPpZtsX4XK5Zvx1kwocSYmzRM" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
+      </a>
+    </div>
+  </nav>
+<div class="container">
+  <div class="container login align-content-center">
+    <div class="row">
+      <div class="col-7 d-flex justify-content-center align-items-center">
+        <div class="row login-form">
+          <span class="sign-in">Sign in to Account</span>
+          <form action="/action_page.php">
+            <div class="mb-3 mt-3">
+              <input type="text" class="form-control" id="studid" placeholder="Student Number" name="studid">
+            </div>
+            <div class="mb-3">
+              <input type="password" class="form-control" id="pwd" placeholder="Password" name="pswd">
+              <a href="#" class="text-decoration-none align-content-end">Forget password?</a>
+            </div>
+          <!--remember user-->
+          <!--<div class="form-check mb-3">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="remember"> Remember me
+            </label>
+          </div>-->
+            <div class="btn-content">
+              <button type="submit" class="btn btn-cus">SIGN IN</button>
+            <span>Account not yet activated?</span><a href="#">Click here.</a>
+            </div>
+          </form>
+        </div>
+     </div>
+      <div class="col-5 side-img">
+        <img src="./img/side-login.jpg" class="side-login">
+        <span class="modal-header text-white">Welcome back!</span>
+        <div class="row"></div>
+        <div class="row"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
